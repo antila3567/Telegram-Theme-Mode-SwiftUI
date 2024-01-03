@@ -11,6 +11,8 @@
 		DD10977D2B45906900FA8296 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD10977C2B45906900FA8296 /* ContentView.swift */; };
 		DD10977F2B45906A00FA8296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD10977E2B45906A00FA8296 /* Assets.xcassets */; };
 		DD1097822B45906A00FA8296 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD1097812B45906A00FA8296 /* Preview Assets.xcassets */; };
+		DD10978A2B4590DC00FA8296 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1097892B4590DC00FA8296 /* View+Extensions.swift */; };
+		DD10978C2B45945500FA8296 /* RectKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD10978B2B45945500FA8296 /* RectKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		DD10977C2B45906900FA8296 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DD10977E2B45906A00FA8296 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD1097812B45906A00FA8296 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD1097892B4590DC00FA8296 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		DD10978B2B45945500FA8296 /* RectKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 		DD1097792B45906900FA8296 /* TelegramThemeMode */ = {
 			isa = PBXGroup;
 			children = (
+				DD1097882B4590C700FA8296 /* Helpers */,
 				DD10977A2B45906900FA8296 /* TelegramThemeModeApp.swift */,
 				DD10977C2B45906900FA8296 /* ContentView.swift */,
 				DD10977E2B45906A00FA8296 /* Assets.xcassets */,
@@ -65,6 +70,15 @@
 				DD1097812B45906A00FA8296 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DD1097882B4590C700FA8296 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DD1097892B4590DC00FA8296 /* View+Extensions.swift */,
+				DD10978B2B45945500FA8296 /* RectKey.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD10977D2B45906900FA8296 /* ContentView.swift in Sources */,
+				DD10978A2B4590DC00FA8296 /* View+Extensions.swift in Sources */,
 				DD10977B2B45906900FA8296 /* TelegramThemeModeApp.swift in Sources */,
+				DD10978C2B45945500FA8296 /* RectKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
